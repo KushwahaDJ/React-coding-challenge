@@ -1,0 +1,98 @@
+.body {
+  margin: 100px auto;
+  padding: 0 74px;
+}
+.body li {
+  list-style: none;
+}
+.body .errors {
+  float: left;
+  margin-right: 32px;
+}
+.header {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  padding: 0 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header h2 {
+  margin-left: 58px;
+}
+.header p {
+  text-align: center;
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  transform: translate(-50%);
+  top: -6px;
+}
+.header p span {
+  float: left;
+  font-size: 20px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+.header .errors {
+  list-style: none;
+  padding: 6px;
+  line-height: 24px;
+  border: 1px solid rgb(40, 32, 32);
+  border-radius: 4px;
+  margin-top: 18px;
+}
+.header .errors.error {
+  background-color: #f56236;
+}
+.body .errors li {
+  list-style: none;
+  padding: 6px;
+  line-height: 24px;
+  border: 1px solid rgb(40, 32, 32);
+  border-radius: 4px;
+  margin-top: 18px;
+}
+.body .errors.error li {
+  background-color: #f56236;
+}
+.body .errors.warning li {
+  background-color: #fce788;
+}
+.body .errors.info li {
+  background-color: #88fca3;
+}
+h4 span {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 8px;
+  border: 5px solid rgb(230, 9, 9);
+  margin-left: 18px;
+}
+
+.clearAll {
+  background-color: #88fca3;
+  margin-left: 30px !important;
+}
+.btns {
+  text-align: center;
+}
+.errors {
+  color: rgb(46, 43, 43);
+  width: calc(33.33% - 32px);
+}
+.errors li span {
+  float: right;
+  margin-left: 34px;
+  cursor: pointer;
+  font-weight: bold;
+}
